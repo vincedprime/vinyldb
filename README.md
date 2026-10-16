@@ -2,7 +2,7 @@
 VinylDB is a DB
 
 ### Initial thought process
-In many places I've done this
+1. Many times I've done this
 ```java
 mangoRepository.save(mango);
 mangoCache.put(mango.getId(), mango);
@@ -27,3 +27,5 @@ mangoRepository.save(mango);
 Mango mangoObj = mangoRepository.get(id);
 return mangoObj;
 ```
+
+2. Why can't user choose, if they want to just use the in-memory capabilities or disk storage or both
